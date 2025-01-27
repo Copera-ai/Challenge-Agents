@@ -1,40 +1,34 @@
-# Welcome to Remix!
+# Desafio Agents: Lista de Tarefas
 
-- 📖 [Remix docs](https://remix.run/docs)
 
-## Development
 
-Run the dev server:
+Neste desafio, você irá construir mm Agent para interagir com uma lista de tarefas. Nesse desafio, você deve utilizar as seguintes tecnologias:
 
-```shellscript
-npm run dev
-```
+Langchain
+LangGraph
+MongoDB
+TypeScript
+vitest (opcional)
 
-## Deployment
+## Desafio
 
-First, build your app for production:
+O seu Agent deve ser capaz de realizar atividades na lista de tarefas da mesma maneira como o usuário faz. 
 
-```sh
-npm run build
-```
+Capacidades Esperadas do seu Agent:
 
-Then run the app in production mode:
+### Criar uma tarefa com titulo, completa e ou com data caso o usuário solicite;
 
-```sh
-npm start
-```
+Prompt 1: `Eu tenho que comprar os ingredientes para fazer Massa de Macarrão en casa`
 
-Now you'll need to pick a host to deploy it to.
+Prompt 2: `Registra que ontem eu fui ao super mercado e comprei ovos`
 
-### DIY
+Prompt 3: `Agendei uma consulta medica para a proxima sexta feira, as 10 horas da manha`
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+### Completar uma Tarefa existente;
 
-Make sure to deploy the output of `npm run build`
+### Deletar uma tarefa existente;
 
-- `build/server`
-- `build/client`
+### Sumarizar Tarefas
 
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+## Instruções de entrega
+Você deve disponibilizar o seu projeto em um repositório privado no GitHub e dar acesso de leitura para os usuários @matheusAle e @christiancuri.
