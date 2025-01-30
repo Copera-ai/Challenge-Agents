@@ -20,24 +20,79 @@ Capacidades Esperadas do seu Agent:
 
 Prompt 1: 
 ```
-Eu tenho que comprar os ingredientes para fazer Massa de Macarrão en casa
+Eu tenho que comprar os ingredientes para fazer massa de macarrão em casa
 ```
 
 Prompt 2: 
 ```
+Agendei uma consulta medica para a proxima sexta feira, as 10 horas da manha
+```
+
+
+
+### Completar uma Tarefa existente;
+
+Prompt 1: 
+```
 Registra que ontem eu fui ao supermercado e comprei ovos
+```
+
+
+### Modificar uma tarefa existente;
+
+Prompt 1:
+```
+A minha consulta foi foi remarcada para a proxima semana, no mesmo horario
+```
+
+Prompt 2:
+```
+A minha reuniao da sexta com o Marcos foi cancelada.
+```
+
+Prompt 3:
+```
+A minha reuniao da sexta com o Marcos foi cancelada, anota no titulo e marca como completa
+```
+
+
+
+### Sumarizar Tarefas
+
+Prompt 1:
+```
+Quantas atividades eu tenho para realizar ainda hoje?
+```
+
+Prompt 2:
+
+```
+Quais ativiades eu deixei de realizar na ultima semana? 
 ```
 
 Prompt 3: 
 ```
-Agendei uma consulta medica para a proxima sexta feira, as 10 horas da manha
+Quando foi que eu realize a "X" atividade? 
 ```
 
-### Completar uma Tarefa existente;
 
-### Deletar uma tarefa existente;
+### Outros prompts
 
-### Sumarizar Tarefas
+Prompt 1:
+```
+Quais tarefas da semana podem ser combinadas na mesma atividade?
+```
+
+Prompt 2:
+```
+Com base nas atividades atuais, tem algo que vocẽ acha q eu deva incluir?
+```
+
+Prompt 3:
+```
+Qual é a atividade mais facil de ser feita hoje, na sua opniao?  
+```
+
 
 
 ## Desafios Adicionais
@@ -97,3 +152,6 @@ pnpm dev
 
 ## Instruções de entrega
 Você deve disponibilizar o seu projeto em um repositório privado no GitHub e dar acesso de leitura para os usuários @matheusAle e @christiancuri.
+
+No seu repositorio, você deve incluir um video de demo do interagindo com o seu Agent. Não é necessario explicar codigo ou implementaçåo, apenas demostar que o Agent é capas de realizar as ações na lista de tarefas.
+
