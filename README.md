@@ -2,13 +2,13 @@
 
 
 
-Neste desafio, você irá construir mm Agent para interagir com uma lista de tarefas. Nesse desafio, você deve utilizar as seguintes tecnologias:
+Neste desafio, você irá construir um Agent para interagir com uma lista de tarefas. Nesse desafio, você deve utilizar as seguintes tecnologias:
 
-Langchain
-LangGraph
-MongoDB
-TypeScript
-vitest (opcional)
+- Langchain
+- LangGraph
+- MongoDB
+- TypeScript
+- vitest (opcional)
 
 ## Desafio
 
@@ -38,11 +38,12 @@ Registra que ontem eu fui ao supermercado e comprei ovos
 ```
 
 
+
 ### Modificar uma tarefa existente;
 
 Prompt 1:
 ```
-A minha consulta foi foi remarcada para a proxima semana, no mesmo horario
+A minha consulta foi remarcada para a proxima semana, no mesmo horario
 ```
 
 Prompt 2:
@@ -67,7 +68,7 @@ Quantas atividades eu tenho para realizar ainda hoje?
 Prompt 2:
 
 ```
-Quais ativiades eu deixei de realizar na ultima semana? 
+Quais atividades eu deixei de realizar na ultima semana? 
 ```
 
 Prompt 3: 
